@@ -25,6 +25,7 @@
 -   disk : 프로그램이 돌아가는 곳
 -   API : 가져와서 실행하고자 하는 함수의 이름, 정의
     -   다른 사람의 Package를 Import 해서 사용하며, Package 안에 class가 있음
+    -   many classes and methods
 
 ---
 
