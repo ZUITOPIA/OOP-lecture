@@ -22,12 +22,11 @@
     -   Main memory 에서 생성됨
     -   class는 define만 되고 실행한 이후에 generate 되면서 instance가 만들어짐
 -   disk : 프로그램이 돌아가는 곳
+-   API : 가져와서 실행하고자 하는 함수의 이름, 정의
+    -   다른 사람의 Package를 Import 해서 사용하며, Package 안에 class가 있음
 
 ---
 
 ## 코딩을 잘한다는 것
 
 -> 내가 구현한 코드의 ‘비즈니스 로직’을 알고, ‘API’ 많이 아는 것, 디버깅 잘하는 것
-
--   API : 가져와서 실행하고자 하는 함수의 이름, 정의
-    -   다른 사람의 Package를 Import 해서 사용하며, Package 안에 class가 있음
