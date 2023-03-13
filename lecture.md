@@ -8,7 +8,7 @@
 -   compiler behavior : 미리 필요한 공간을 확보, 메모리 할당 해 둠 (ex. C언어)
 -   runtime behavior : Runtime executive 사용
 
--   #### 코드 동작 원리
+#### 코드 동작 원리
 
 -   main memory 공간 확보, CPU 할당 받은 이후에 프로그램 동작
     -   main memory의 Heap area (heap sort 이용)
@@ -16,7 +16,7 @@
 -   disk -> main memory -> CPU ( Cache memory + register ) => OS가 관리
 -   Java 에서의 OS는 JVM
 
--   #### 용어
+#### 용어
 
 -   Instance : 메모리 공간을 확보하는 기준
     -   Main memory 에서 생성됨
