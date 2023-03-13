@@ -19,4 +19,6 @@
 >     - 상속 (Inheritance)
 >     - 다형성 (Polymorphism)
 
+> 3. Interfaces (자세히 정의하기 과제)
+
 CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), xxx’let’ : life cycle이 있도록 프로그램을 짜주는 것 (ex. Applet, Midlet, Servlet etc.), RML, RMI (method invocation), CORBA, JDBC, RPC, Byte code, multi threads, event handling for GUI ...
