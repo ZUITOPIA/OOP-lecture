@@ -2,7 +2,7 @@
 2. Java는 JVM을 통해 실행되기 때문에 운영체제에 상관 없이 실행될 수 있는 독립적인 특성이 있으며, 자동으로 메모리 관리가 가능하고, 안정적인 프로그래밍을 할 수 있음
 3. Object orient paradigm -> component(CBD) -> class -> 재활용
 
-## 프로그램 원리
+# 프로그램 원리
 
 -   compiler behavior vs runtime behavior
 -   compiler behavior : 미리 필요한 공간을 확보, 메모리 할당 해 둠 (ex. C언어)
@@ -22,6 +22,8 @@
     -   Main memory 에서 생성됨
     -   class는 define만 되고 실행한 이후에 generate 되면서 instance가 만들어짐
 -   disk : 프로그램이 돌아가는 곳
+
+---
 
 ## 코딩을 잘한다는 것
 
