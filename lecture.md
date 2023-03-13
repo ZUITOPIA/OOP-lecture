@@ -2,6 +2,7 @@
 2. Java는 JVM을 통해 실행되기 때문에 운영체제에 상관 없이 실행될 수 있는 독립적인 특성이 있으며, 자동으로 메모리 관리가 가능하고, 안정적인 프로그래밍을 할 수 있음
 3. Object orient paradigm -> component(CBD) -> class -> 재활용
 4. file과 class 이름은 항상 대문자, method와 member field 이름은 항상 소문자
+5. method 이름은 동사+목적어
 
 # 프로그램 원리
 
