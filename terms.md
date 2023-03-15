@@ -19,6 +19,18 @@
 >     - 상속 (Inheritance)
 >     - 다형성 (Polymorphism)
 
-> 3. Interfaces (자세히 정의하기 과제)
+> 3.  Instance : 메모리 공간을 확보하는 기준
+>     -   Main memory 에서 생성됨
+>     -   class는 define만 되고 실행한 이후에 generate 되면서 instance가 만들어짐
 
-CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), xxx’let’ : life cycle이 있도록 프로그램을 짜주는 것 (ex. Applet, Midlet, Servlet etc.), RML, RMI (method invocation), CORBA, JDBC, RPC, Byte code, multi threads, event handling for GUI ...
+> 4.  disk : 프로그램이 돌아가는 곳
+
+> 5.  API : 가져와서 실행하고자 하는 함수의 이름, 정의
+>     -   다른 사람의 Package를 Import 해서 사용하며, Package 안에 class가 있음
+>     -   many classes and methods
+
+> 6. Constructor : 객체가 처음 생성될 때 호출되어 멤버 변수를 초기화하고, 필요에 따라 자원을 할당하는 것
+
+> 7. Interfaces (자세히 정의하기 과제)
+
+CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), xxx’let’ : life cycle이 있도록 프로그램을 짜주는 것 (ex. Applet, Midlet, Servlet etc.), RML, RMI (method invocation), CORBA, JDBC, RPC, Byte code, multi threads, event handling for GUI,interfaces (API 에서 왜 interface라는 단어를 썼을지 과제 -> 다른 사람이 짠 코드의 함수 호출을 위함), constructor(생성자)
