@@ -35,31 +35,20 @@
 
 CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), xxx’let’ : life cycle이 있도록 프로그램을 짜주는 것 (ex. Applet, Midlet, Servlet etc.), RML, RMI (method invocation), CORBA, JDBC, RPC, Byte code, multi threads, event handling for GUI,interfaces (API 에서 왜 interface라는 단어를 썼을지 과제 -> 다른 사람이 짠 코드의 함수 호출을 위함), constructor(생성자)
 
-#### Java Keyword
+#### Java Keyword (과제 제출해야할 용어들)
 
--   abstract
--   class
--   extends
--   final
--   implements
--   import
--   instanceof
--   interface
--   new
--   package
--   private
--   protected
--   public
--   static
--   super
--   this
+| 위치 |                                              java keyword                                              |
+| :--: | :----------------------------------------------------------------------------------------------------: |
+|  상  |                        package, import (객체랑 관계 없이 프로그램을 위한 것들)                         |
+|  하  | 상속의 조건 : static, final / 객체의 생성 : new / 객체의 지칭 : this, super / 객체의 타입 : instanceof |
+| 중심 |                                     객체의 구성 : class, interface                                     |
+|  좌  |                             객체의 접근 기준 : public, private, protected                              |
+|  우  |                                       상속 : extends, implements                                       |
+
+#### 추가적인 keywords
 
 -   catch
 -   finally
 -   throw
 -   throws
 -   try
-
--   native
--   synchronized
--   volatile
