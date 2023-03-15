@@ -1,7 +1,6 @@
 ---
-## 코딩을 잘한다는 것
-
--> 내가 구현한 코드의 ‘비즈니스 로직’을 알고, ‘API’ 많이 아는 것, 디버깅 잘하는 것
+###### 코딩을 잘한다는 것
+###### -> 내가 구현한 코드의 ‘비즈니스 로직’을 알고, ‘API’ 많이 아는 것, 디버깅을 잘하는 것
 ---
 
 ## 코드 동작 원리
@@ -32,7 +31,9 @@
 1. Java 는 객체 지향 언어이기 때문에 유지보수에 용이함
 2. Java는 JVM을 통해 실행되기 때문에 운영체제에 상관 없이 실행될 수 있는 독립적인 특성이 있으며, 자동으로 메모리 관리가 가능하고, 안정적인 프로그래밍을 할 수 있음
 3. Object orient paradigm -> component(CBD) -> class -> 재활용
-4. file과 class 이름은 항상 대문자, method와 member field 이름은 항상 소문자
-5. method 이름은 동사+목적어
-6. Constructor buffer : N개 (사용에 따라 다르기 때문에 엄청 많음)
-7. 자바는 compiler와 interpreter 다 사용
+4. file과 class 이름은 항상 대문자, method와 member field(변수) 이름은 항상 소문자
+5. file 이름 띄어쓰기 금지, 숫자 먼저 금지
+6. class, method, variable 이름 똑같아도 에러는 안 남, but 혼동되니 이름 다 다르게 설정
+7. class name, variable name : 명사 / method namd : 동사 + 명사(목적어)
+8. Constructor buffer : N개 (사용에 따라 다르기 때문에 엄청 많음)
+9. 자바는 compiler와 interpreter 다 사용

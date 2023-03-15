@@ -34,3 +34,32 @@
 > 7. Interfaces (자세히 정의하기 과제)
 
 CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), xxx’let’ : life cycle이 있도록 프로그램을 짜주는 것 (ex. Applet, Midlet, Servlet etc.), RML, RMI (method invocation), CORBA, JDBC, RPC, Byte code, multi threads, event handling for GUI,interfaces (API 에서 왜 interface라는 단어를 썼을지 과제 -> 다른 사람이 짠 코드의 함수 호출을 위함), constructor(생성자)
+
+#### Java Keyword
+
+-   abstract
+-   class
+-   extends
+-   final
+-   implements
+-   import
+-   instanceof
+-   interface
+-   new
+-   package
+-   private
+-   protected
+-   public
+-   static
+-   super
+-   this
+
+-   catch
+-   finally
+-   throw
+-   throws
+-   try
+
+-   native
+-   synchronized
+-   volatile
