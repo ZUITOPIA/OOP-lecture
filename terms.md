@@ -35,7 +35,7 @@
 
 CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), xxx’let’ : life cycle이 있도록 프로그램을 짜주는 것 (ex. Applet, Midlet, Servlet etc.), RML, RMI (method invocation), CORBA, JDBC, RPC, Byte code, multi threads, event handling for GUI,interfaces (API 에서 왜 interface라는 단어를 썼을지 과제 -> 다른 사람이 짠 코드의 함수 호출을 위함), constructor(생성자)
 
-#### Java Keyword (과제 제출해야할 용어들)
+#### Java Keyword (과제 제출해야할 용어들, 키워드 나열 말고 class를 가운데 두고 상하좌우로 정리)
 
 | 위치 |                                              java keyword                                              |
 | :--: | :----------------------------------------------------------------------------------------------------: |
@@ -45,10 +45,13 @@ CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), 
 |  좌  |                             객체의 접근 기준 : public, private, protected                              |
 |  우  |                                       상속 : extends, implements                                       |
 
-#### 추가적인 keywords
+#### Java 내의 예외처리 관련 keywords
 
--   catch
--   finally
--   throw
--   throws
 -   try
+    -   한번은 예외가 발생할 수 있는 함수를 실행함
+-   catch
+    -   함수 실행 중 예외가 발생되면 실행 함
+-   finally
+    -   필요 시 무조건 실행 함
+-   throws( Exception Type )
+-   throw
