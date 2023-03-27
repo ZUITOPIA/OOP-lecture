@@ -1,4 +1,4 @@
-# 용어 정리
+# 용어 정리 첫 번째 과제
 
 > 1. JVM
 >     - Java Virtual Machine의 줄임말
@@ -285,3 +285,15 @@ CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), 
 > 5.  throw
 >
 > -   예외를 강제로 발생시킨 후 상위 블럭이나 catch문으로 예외를 던짐
+
+---
+
+# 용어 정리 두 번째 과제
+
+1. ECA
+2. Method Invocation
+3. (Message passing)
+4. Call-by-value
+5. Call-by-reference
+6. Activation Record : 프로그래밍 동작 원리 (stack 활용)
+7. 지역 변수 ?

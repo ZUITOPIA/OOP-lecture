@@ -3,6 +3,8 @@
 ###### -> 내가 구현한 코드의 ‘비즈니스 로직’을 알고, ‘API’ 많이 아는 것, 디버깅을 잘하는 것
 ---
 
+##### 첫번째 과제를 위한
+
 ## 코드 동작 원리
 
 -   main memory 공간 확보, CPU 할당 받은 이후에 프로그램 동작
@@ -37,3 +39,9 @@
 7. class name, variable name : 명사 / method namd : 동사 + 명사(목적어)
 8. Constructor buffer : N개 (사용에 따라 다르기 때문에 엄청 많음)
 9. 자바는 compiler와 interpreter 다 사용
+
+---
+
+##### 두번째 과제를 위한
+
+Exception - Error(프로그램, 개발자 책임) / Failure(소프트웨어, 인프라 구축하는 사람이 책임) / Fault(하드웨어)
