@@ -291,9 +291,7 @@ CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), 
 # 용어 정리 두 번째 과제
 
 1. ECA
-2. Method Invocation
-3. (Message passing)
-4. Call-by-value
-5. Call-by-reference
-6. Activation Record : 프로그래밍 동작 원리 (stack 활용)
-7. 지역 변수 ?
+2. Method Invocation (Message passing)
+3. Activation Record : 프로그래밍 동작 원리 (stack 활용)
+4. Call-by-value / Call-by-reference
+5. 지역 변수 ?

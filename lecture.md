@@ -46,7 +46,7 @@
 
 Exception - Error(프로그램, 개발자 책임) / Failure(소프트웨어, 인프라 구축하는 사람이 책임) / Fault(하드웨어)
 
-API 란?
+## API 란?
 
 -   Interface : Programming에서 필요한 기능/절차 등에 대한 호출 규약
 
@@ -66,5 +66,22 @@ API 란?
 -   Java (객체지향언어)에서는 function, procedure를 Method로 정의함
 -   Method : object instance 에 의해 호출됨
     -   method calling 의 원리 : method invocation(해당 함수를 실행시키는 것)
-        -   ex. ECA -> overloading 때문
+        -   ex. _ECA -> overloading 때문_
 -   instance : 클래스로부터 생성된 객체, 힙 메모리에 멤버 변수의 크기에 따라 메모리가 생성됨
+
+## method calling
+
+1. 함수 호출 (event)
+2. signature
+3. condition check
+4. action
+
+    signature : interface 규약에 들어가는 내용들(함수의 이름, 변수의 타입과 개수)
+
+    signature -> condtion : message passing
+    condition -> action : message invocation
+
+## call-by-value / call-by-reference
+
+call-by-value : 호출할 때 value 전달
+call-by-reference : 호출할 때 reference 전달
