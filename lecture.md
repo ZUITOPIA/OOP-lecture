@@ -45,3 +45,26 @@
 ##### 두번째 과제를 위한
 
 Exception - Error(프로그램, 개발자 책임) / Failure(소프트웨어, 인프라 구축하는 사람이 책임) / Fault(하드웨어)
+
+API 란?
+
+-   Interface : Programming에서 필요한 기능/절차 등에 대한 호출 규약
+
+    -   규약(rule) : 호출할 함수의 이름, 입력 변수의 형식(type)과 개수 등을 정의
+        -   cf. overloading (자바에서는 하나의 메소드 이름으로 여러 기능을 구현하기 때문)
+    -   혼자 개발할 때는 필요 X, 여러 명이 개발할 때 필요 O
+    -   ex. print(), print("string"), print("string", format)
+
+    -   interface design (인터페이스 설계) : Programming에서 필요한 기능/절차 정의
+
+    -> Function (functioin call 함수 호출)
+    -> Procedure (procedure call 함수 호출, local procedure call)
+
+        -   대표적인 예 : C언어의 RPC(Remote Procedure Call 원격 함수 호출)
+
+-   Software engineering 관점에서는 Module이 중요 -> function, procedure
+-   Java (객체지향언어)에서는 function, procedure를 Method로 정의함
+-   Method : object instance 에 의해 호출됨
+    -   method calling 의 원리 : method invocation(해당 함수를 실행시키는 것)
+        -   ex. ECA -> overloading 때문
+-   instance : 메모리 할당
