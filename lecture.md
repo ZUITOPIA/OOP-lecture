@@ -83,5 +83,5 @@ Exception - Error(프로그램, 개발자 책임) / Failure(소프트웨어, 인
 
 ## call-by-value / call-by-reference
 
-call-by-value : 호출할 때 value 전달
-call-by-reference : 호출할 때 reference 전달
+call-by-value : 호출할 때 value 전달 (stack에 저장되기 때문에 값이 사라짐)
+call-by-reference : 호출할 때 reference 전달 (주소 값이 계속 살아있음)
