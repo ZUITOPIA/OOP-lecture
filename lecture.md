@@ -67,4 +67,4 @@ API 란?
 -   Method : object instance 에 의해 호출됨
     -   method calling 의 원리 : method invocation(해당 함수를 실행시키는 것)
         -   ex. ECA -> overloading 때문
--   instance : 메모리 할당
+-   instance : 클래스로부터 생성된 객체, 힙 메모리에 멤버 변수의 크기에 따라 메모리가 생성됨
