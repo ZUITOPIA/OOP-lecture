@@ -295,3 +295,5 @@ CBD, Instance, OS, Heap Area, Cache memory, Register, API, API의 I(interface), 
 3. Activation Record : 프로그래밍 동작 원리 (stack 활용)
 4. Call-by-value / Call-by-reference
 5. 지역 변수 ?
+
+call-by-value / call-by-reference 차이 구별, Lab2-7 실습하고 설명까지 달기
