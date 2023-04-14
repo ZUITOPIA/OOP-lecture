@@ -2,15 +2,15 @@
 
 class School {
     Teacher yiyoon;
-    Members ko, jeon, kim, bak;
+    Student ko, jeon, kim, bak;
     Members members[];
 
     public School(){
-        yiyoon = new Teacher("Yoon", "M10313","IT 공학전공");
-        ko = new Members("ko", "IT 1912943");
-        jeon = new Members("jeon", "IT 1900000");
-        kim = new Members("kim", "IT 1900001");
-        bak = new Members("bak", "IT 1900002");
+        yiyoon = new Teacher("Yoon", "M10313", "IT 공학전공");
+        ko = new Student("Ko","1912943","IT");
+        jeon = new Student("Jeon","1900000", "IT");
+        kim = new Student("Kim","1900001", "IT");
+        bak = new Student("Bak","1900002", "IT");
 
         members = new Members[5];
         members[0] = yiyoon;
