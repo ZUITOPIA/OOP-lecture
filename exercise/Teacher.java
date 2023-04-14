@@ -13,7 +13,7 @@ class Teacher extends Members{
         members = sub;
     }
 
-    public void introduction(){
+    public void introduce(){
         System.out.println("Teacher \""+name +"\" in "+dept+" dept passionately teaches OOP class !!"); // 선생님 소개
     }
 }

@@ -13,7 +13,7 @@ class Student extends Members{
         members = sub;
     }
 
-    public void introduction(){
+    public void introduce(){
         System.out.println("Student \""+name +"\" in "+major+" major passionately studies OOP class ~"); // 학생 소개
     }
 }

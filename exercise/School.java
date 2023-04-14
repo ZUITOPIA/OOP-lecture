@@ -23,7 +23,7 @@ class School {
     public void doIntroduction(){
         int n = members.length;
         for (int i=0; i<n; i++){
-            members[i].introduction(); // 멤버의 수 만큼 소개할 수 있도록
+            members[i].introduce(); // 멤버의 수 만큼 소개할 수 있도록
         }
     }
 

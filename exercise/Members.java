@@ -19,7 +19,7 @@ class Members {
         this.major = major; // 전공
     }
 
-    public void introduction(){
+    public void introduce(){
         System.out.println("\tStudent \""+name + "\" is Teacher Yoon's disciple"); // 학생 소개
     }
 }
