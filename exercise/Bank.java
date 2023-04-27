@@ -1,31 +1,28 @@
 public class Bank{
     public static void main(String args[]){
         Account hong = new Account("홍길동");
-        hong.deposit(20);
-        // hong.deposit(-100); // MalformedData 예외 발생
+        hong.deposit(30); // 정상
+
         try{
-            // 1st - 1 try : normal
-            hong.withdraw(15);
-            // hong.deposit(-20);
-            // 2nd try : abnormal
-            // hong.withdraw(-50); // BalanceOutOfBoundsException 예외 발생
-        } catch(BalanceOutOfBoundsException be){
-            be.printStackTrace();
+            hong.withdraw(15); // 15원 빼고 15원 남음
+        } catch(InsufficientBalanceException in){
+            in.printStackTrace();
         }
+  
         catch(MalformedData me){
             me.printStackTrace();
         }
-        hong.check();
-        // 1st try : abnormal
-        // hong.withdraw(1); // BalanceOutOfBoundsException 예외 발생
-
-        // 2nd try-catch
-        try{
-            hong.withdraw(10);
-            // BalanceOutOfBoundsException 예외 발생
-        } catch(BalanceOutOfBoundsException be){
-            be.printStackTrace();
+        catch(ReInputException re){
+            re.printStackTrace();
         }
+        hong.check();
+
+        try{
+            hong.withdraw(40); // 남은 금액에서 40원을 빼내기위해서는 예금 25원 모자람
+        } catch(InsufficientBalanceException in){
+            in.printStackTrace();
+        }
+
         System.out.println("normal termination");
     }
 }
