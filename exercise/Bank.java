@@ -11,7 +11,8 @@ public class Bank{
             // hong.withdraw(-50); // BalanceOutOfBoundsException 예외 발생
         } catch(BalanceOutOfBoundsException be){
             be.printStackTrace();
-        } catch(MalformedData me){
+        }
+        catch(MalformedData me){
             me.printStackTrace();
         }
         hong.check();

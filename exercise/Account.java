@@ -20,6 +20,7 @@ public class Account {
 
             if(balance < amount){
                 throw new BalanceOutOfBoundsException();
+               
             }
 
             balance = balance - amount;
@@ -28,8 +29,5 @@ public class Account {
     public void check(){
         System.out.println(name + " : " + balance);
     }
-
-
-    
 
 }
