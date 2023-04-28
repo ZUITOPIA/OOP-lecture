@@ -22,7 +22,6 @@ public class WordCheck {
         in.useDelimiter("[^a-zA-Z]+");
         while(in.hasNext())
             words.add(in.next().toLowerCase());
-        
         return words;
     }
 }
