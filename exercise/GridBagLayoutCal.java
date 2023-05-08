@@ -1,11 +1,16 @@
 import java.awt.*;
 
 public class GridBagLayoutCal extends Frame {
-    TextField tf;
+    TextField tf = new TextField(20);
     
     public GridBagLayoutCal(){
         super("GridBag Test");
 
+        Panel p = new Panel();
+        p.setLayout(new GridLayout(2,1));
+
+        //
+        add(tf);
         //
 
         GridBagLayout gridbag = new GridBagLayout();
